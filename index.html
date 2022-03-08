@@ -7,6 +7,7 @@
   <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="style.css">
 
   <title>Frontend Mentor | Time tracking dashboard</title>
 
@@ -25,13 +26,19 @@
 
 <body>
   <div class="container">
-    <div class="big-card">
-      <p>Report for</p>
-      <h2>Jeremy Robson</h2>
+    <div class="big-card col-12">
+      <div class="profile col-12">
+        <img class="profilePic col-4" src="images/image-jeremy.png" />
+        <p class="col-4">Report for</p>
+        <h2 class="col-8">Jeremy Robson</h2>
+      </div>
 
-      <a id="daily">Daily</a>
-      <a id="weekly">Weekly</a>
-      <a id="monthly">Monthly</a>
+      <div class="links col-12">
+        <a id="daily col-4">Daily</a>
+        <a id="weekly col-4">Weekly</a>
+        <a id="monthly col-4">Monthly</a>
+      </div>
+
     </div>
 
     <div class="work card">
