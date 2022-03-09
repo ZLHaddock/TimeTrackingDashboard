@@ -80,7 +80,58 @@ body{
     cursor: pointer;
 }
 
-@media only screen and (min-width: 376px){
+.card{
+    
+    padding:0;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-top:5%;
+
+}
+
+.card-sub-section{
+    background-color: hsl(235, 46%, 20%);
+    position: relative;
+    margin-top:-9%;
+    border-radius: 15px;
+    padding:0% 5% 2% 5%;
+    
+}
+.present{
+    float:left;
+    line-height: 5px;
+}
+.present h3{
+    font-weight: 400;
+}
+.present p{
+    font-size: 28px;
+    font-weight: 300;
+}
+.past{
+    position: relative;
+    left:35%;
+    text-align: right;
+    display: block;
+}
+
+.previous{
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.work{
+    background-color: hsl(15, 100%, 70%);
+}
+
+.pic{
+    position:relative;
+    left: 70%;
+    margin:-10px;
+    padding:0;
+}
+
+@media only screen and (min-width: 600px){
 
     /* Divide 100% by the number of columns you want and then multiply accordingly e.g (100% / 12 = 8.33%) */
     .col-1 {width: 8.33%;}
