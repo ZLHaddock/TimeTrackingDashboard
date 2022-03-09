@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+}
+
+[class*="col-"]{
+    width:100%;
+    padding:2vw;
+}
+.col-s-1 {width: 8.33%;}
+.col-s-2 {width: 16.66%;}
+.col-s-3 {width: 25%;}
+.col-s-4 {width: 33.33%;}
+.col-s-5 {width: 41.66%;}
+.col-s-6 {width: 50%;}
+.col-s-7 {width: 58.33%;}
+.col-s-8 {width: 66.66%;}
+.col-s-9 {width: 75%;}
+.col-s-10 {width: 83.33%;}
+.col-s-11 {width: 91.66%;}
+.col-s-12 {width: 100%;}
+
+.card, .big-card::after {
+    content: '';
+    clear:both;
+    display: table;
+}
+body{
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(226, 43%, 10%);
+    font-family: 'Rubik', sans-serif;
+}
+
+.big-card{
+    background-color: hsl(235, 46%, 20%);
+    padding:0;
+    border-radius: 5% 5% 5% 5%;
+}
+.profile{
+    background-color:hsl(246, 80%, 60%) ;
+    width:100%;
+    margin:0;
+    border-radius: 5% 5% 5% 5%;
+    line-height: 1px;
+}
+.profile div{
+    float:right;
+}
+.profile div p,h2{
+    font-weight: 300;
+    padding-top: 15px;
+}
+.profilePic{
+    border: 3px solid white;
+    border-radius: 100%;
+    padding:1px;
+    background-color: white;
+    transform: scale(0.5, 0.5);
+    
+}
+
+.links{
+    padding:6% 0%;
+}
+.links a{
+    padding:0% 9%;
+    font-weight: 300;
+    text-decoration: none;
+    color: hsla(0, 0%, 100%, 0.5);
+}
+.links a:focus{
+    color: hsla(0, 0%, 100%, 1);
+}
+#daily:hover{
+    cursor: pointer;
+}
+
+@media only screen and (min-width: 376px){
+
+    /* Divide 100% by the number of columns you want and then multiply accordingly e.g (100% / 12 = 8.33%) */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
