@@ -33,13 +33,13 @@ body{
 .big-card{
     background-color: hsl(235, 46%, 20%);
     padding:0;
-    border-radius: 5% 5% 5% 5%;
+    border-radius: 15px;
 }
 .profile{
     background-color:hsl(246, 80%, 60%) ;
     width:100%;
     margin:0;
-    border-radius: 5% 5% 5% 5%;
+    border-radius: 15px;
     line-height: 1px;
 }
 .profile div{
@@ -69,6 +69,12 @@ body{
 }
 .links a:focus{
     color: hsla(0, 0%, 100%, 1);
+    outline: none;
+}
+.links a:active{
+    color: hsla(0, 0%, 100%, 1);
+    border: none;
+    outline: none;
 }
 #daily:hover{
     cursor: pointer;
