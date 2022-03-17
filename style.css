@@ -251,9 +251,17 @@ body{
     .Dots{
         position: relative;
         left:100%;
+        margin-top: 0;;
     }
     .previous{
-        width:100%
+        width:max-content;
+        text-align: left;
+    }
+    .present h3{
+        white-space: nowrap;
+    }
+    .present p{
+        font-size: 35px;
     }
 
 }
