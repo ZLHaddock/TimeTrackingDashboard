@@ -76,6 +76,10 @@ body{
     border: none;
     outline: none;
 }
+.links a:hover{
+    color:hsla(0, 0%, 100%, 1);
+}
+
 #daily:hover{
     cursor: pointer;
 }
@@ -95,6 +99,7 @@ body{
     margin-top:-9%;
     border-radius: 15px;
     padding:0% 5% 2% 5%;
+    height:150px;
     
 }
 .present{
@@ -171,4 +176,84 @@ body{
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
+
+    .big-card-container{
+        width:17%;
+        padding-right: 0;
+        transform: translateY(50px);
+        height:500px;
+    }
+    .card-container{
+        width:66.66%;
+    }
+    .big-card{
+        margin:0;
+        width:100%
+    }
+    .profile{
+        display: block;
+        line-height: normal;
+        height: 400px;
+    }
+    .profile div{
+        float:none;
+        padding:0;
+    }
+    .profile div p,h2{
+        font-weight: 300;
+        padding-top: 15px;
+    }
+    .profile div h2{
+        font-size: 35px;
+        margin-top: -30px;
+
+    }
+    .profilePic{
+        border: 1px solid white;
+        border-radius: 100%;
+        padding:1px;
+        background-color: white;
+        transform: scale(1.5, 1.5);
+        
+    }
+    
+    .links{
+        padding:6% 0%;
+        height: 150px;
+        margin-left: 10%;
+    }
+
+    .links a{
+        line-height: 40px;
+    }
+    .card{
+        display: inline-block;
+        width:25%;
+        text-align: left;
+        
+
+    }
+    .card-sub-section{
+        height: 200px;
+    }
+    .container{
+        width:100%;
+        display: inline-block;
+    }
+    .float{
+        float:left;
+    }
+    .past{
+        position: relative;
+        left:0%;
+        display: block;
+    }
+    .Dots{
+        position: relative;
+        left:100%;
+    }
+    .previous{
+        width:100%
+    }
+
 }
